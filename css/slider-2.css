@@ -1,0 +1,203 @@
+@charset "UTF-8";
+.slider-block {
+  position: relative;
+  margin: 50px 0;
+  background-color: #f9f7fc;
+  padding: 45px 0;
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
+  .slider-block .slick-initialized {
+    visibility: visible; }
+
+.portfolio-demo .slider {
+  visibility: visible; }
+
+/* Лента слайдов*/
+.slick-track {
+  min-width: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0 auto; }
+
+/* Ограничивающая оболочка*/
+.slick-list {
+  width: 1145.6px;
+  text-align: center;
+  padding: 2.5px;
+  overflow: hidden;
+  margin-top: 42px;
+  max-width: 50%;
+  margin: 0 auto; }
+
+.review-slider .slick-list {
+  max-width: 1130px; }
+
+/* Слайд*/
+.slick-slide {
+  text-align: center;
+  height: auto;
+  outline: 0; }
+
+.review-slider .slick-slide {
+  padding: 10px 20px 0; }
+  .review-slider .slick-slide:hover {
+    text-decoration: none; }
+  .review-slider .slick-slide span {
+    display: block;
+    overflow: hidden;
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.13), 0 0 0 rgba(0, 0, 0, 0.02);
+    margin-bottom: 15px; }
+
+.slick-slide span img {
+  width: 100%; }
+
+.clients-slider .slick-slide img {
+  max-width: 100%; }
+
+/* Стрелка*/
+.slick-arrow {
+  position: absolute;
+  top: 130px; }
+
+.slick-arrow:before {
+  font-size: 36px;
+  color: #424242; }
+
+.slick-arrow.slick-prev {
+  left: 220px; }
+
+.slick-arrow.slick-next {
+  right: 220px; }
+
+.slick-arrow.slick-prev, .slick-arrow.slick-next {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e7ecf2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.13), 0 0 0 rgba(0, 0, 0, 0.02);
+  position: absolute;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  font-size: 0;
+  border: none;
+  padding: 0; }
+
+.slick-arrow.slick-disabled:before {
+  opacity: 0.5; }
+
+.slick-arrow.slick-prev:before {
+  margin-right: 10px;
+  content: "<"; }
+
+.slick-arrow.slick-next {
+  border-radius: 50%; }
+  .slick-arrow.slick-next:before {
+    content: ">";
+    margin-left: 10px; }
+
+.slick-arrow.slick-prev:hover:before {
+  color: #4990e2; }
+
+.slick-arrow.slick-next:hover:before {
+  color: #4990e2; }
+
+.slick-arrow.slick-disabled:hover:before {
+  color: #424242; }
+
+.slick-arrow.slick-prev:hover:before, .slick-arrow.slick-next:hover:before {
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out; }
+
+.slideblk {
+  background-color: #fff;
+  margin-right: 28px;
+  margin-left: 7px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.14);
+  width: 300px;
+  height: 232px;
+  text-decoration: none;
+  padding-left: 33px; }
+  .slideblk:hover {
+    background-color: #ea6c46; }
+  .slideblk__title {
+    letter-spacing: 0.02em;
+    color: #333333;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 45px; }
+  .slideblk__subtitle {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #777777;
+    -moz-text-align-last: left;
+    text-align-last: left;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    -webkit-margin-after: 0;
+    margin-block-end: 0; }
+  .slideblk__time {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ea6c46;
+    margin-top: 64px;
+    text-align: left; }
+
+.slick-dots {
+  margin-top: 42px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  outline: none; }
+  .slick-dots > .slick-active {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center; }
+    .slick-dots > .slick-active::after {
+      content: "";
+      position: absolute;
+      background-color: #948ee4;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%; }
+  .slick-dots li {
+    list-style: none;
+    margin: 0 15px; }
+    .slick-dots li > .slick-active {
+      position: relative;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center; }
+  .slick-dots button {
+    font-size: 0;
+    width: 26px;
+    height: 26px;
+    background-color: #ffffff;
+    border: 1.0px solid #948ee4;
+    border-radius: 50%;
+    outline: none; }

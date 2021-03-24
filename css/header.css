@@ -1,0 +1,105 @@
+.header__wrapp {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 34px; }
+
+.header__home {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center; }
+
+.header__logo {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  text-decoration: none; }
+  .header__logo--320 {
+    display: none; }
+  .header__logo span {
+    font-family: Exo2;
+    font-size: 34px;
+    line-height: 29px;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    color: #181818;
+    font-family: sans-serif;
+    padding-left: 19px; }
+
+.header__tel {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #777777;
+  margin-left: 35px;
+  max-width: 298px; }
+  .header__tel--2 {
+    margin-left: 35px; }
+
+.header__form--enter {
+  color: #948ee4;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  border: none;
+  font-family: Roboto;
+  background: none;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+.header__form--reg {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ea6c46;
+  border: none;
+  background: none;
+  cursor: pointer; }
+
+.header__nav {
+  padding: 21px;
+  background-color: #dcdedf;
+  background-image: -webkit-gradient(linear, left top, right top, from(#d37ff1), to(#ea6c45));
+  background-image: linear-gradient(90deg, #d37ff1 0%, #ea6c45 100%); }
+  .header__nav--enter {
+    display: none; }
+  .header__nav nav {
+    width: 90%;
+    margin: 0 auto; }
+
+.header .submenu {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.01em; }
+  .header .submenu li {
+    list-style: none; }
+    .header .submenu li a {
+      text-decoration: none;
+      color: #ffffff; }
+
+.block {
+  display: none; }
